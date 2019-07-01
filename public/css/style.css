@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.elementContaner {
+    border: 2px solid #eee;
+    text-align: center;
+    margin: 0.7em;
+    margin-top: 3em;
+}
+
+.elementContaner:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.songsContaner {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    min-height: 100vh;
+    height: auto;
+
+}
+
+.resultForm {
+    background: #afbde69a;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 1em 0.5em;
+}
+
+#addSong {
+    padding: 0.3em;
+    border-radius: 6px;
+    margin-left: 5px;
+
+}
+
+#addSinger {
+    padding: 0.3em;
+    border-radius: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#add {
+    padding: 0.6em;
+    border-radius: 6px;
+}
+
+.boo {
+    color: white;
+    background: linear-gradient(to right, #8360c381, #2ebf91a2);
+}
+
+label {
+    margin-top: 7px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#add {
+    background-color: green;
+    color: white;
+    border: 1px solid #DDD;
+    padding: 0.7em 2em;
+}
+
+.nav {
+    padding: 1em;
+
+}
+
+.nav__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5em;
+}
+
+.form__input {
+    padding: 1em .5em;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 1em;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.signUp_title {
+    margin-bottom: 1em;
+}
+
+.signUp_input {
+    padding: 1em .5em;
+    margin-bottom: .6em;
+    border: 2px solid #eee;
+
+}
+
+.signUp_button {
+    padding: 1em .5em;
+    background: #ff0494;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+
+}
+
+.bodyy {
+    background: url('https://buffer.com/library/wp-content/uploads/2017/09/13-Places-to-Find-Background-Music-for-Video-Cover-Image-2-1024x685.jpg');
+    background-position: center;
+    background-size: cover;
+
+}

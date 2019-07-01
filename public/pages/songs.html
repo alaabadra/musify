@@ -1,0 +1,33 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Public songs </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./public/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class='resultContainer'>
+    <form class='resultForm' action='/addsong' method='POST'>
+      <label for='addSong'>Add Your Favorite Song</label>
+      <input id='addSong' type="text" name="addSong">
+      <label for='addSinger'>Add Your Favorite Singer</label>
+      <input id='addSinger' type="text" name="addSinger">
+      <label for='add'></label>
+      <input id='add' type="submit" value="Add" name="sumbitResult">
+    </form>
+  </div>
+  <div class="boo">
+    <div class=" songsContaner"></div>
+  </div>
+  <script src="./public/js/fetch.js"></script>
+  <script src="./public/js/dom.js"></script>
+</body>
+
+</html>

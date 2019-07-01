@@ -1,0 +1,35 @@
+{
+  "name": "musify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/testEndpoint.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACG6/musify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACG6/musify/issues"
+  },
+  "homepage": "https://github.com/FACG6/musify#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.3.1",
+    "dotenv": "^6.2.0",
+    "jsonwebtoken": "^8.4.0",
+    "nodemon": "^1.18.10",
+    "pg": "^7.8.0",
+    "supertest": "^3.4.2"
+  }
+}
